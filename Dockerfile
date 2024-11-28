@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy the HTML file to the Nginx server's root directory
-COPY Docker.html /usr/share/nginx/html/index.html
+COPY Devops.html /usr/share/nginx/html/index.html
 
 # Expose port 80 so we can access the app
 EXPOSE 8080
